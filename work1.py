@@ -3,7 +3,7 @@ from random import randrange
 game =  False
 
 
-bot = telebot.TeleBot("5881190851:AAFtLLkvjldXAF7xUbPArEOE1gxqmqXhngo", parse_mode=None)
+bot = telebot.TeleBot("Token", parse_mode=None)
 @bot.message_handler(commands=['игра'])
 def send_welcome(message):
     game = True
